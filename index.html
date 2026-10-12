@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurora | Moda Femenina</title>
+  <meta name="description" content="Aurora: moda femenina cómoda, elegante y con personalidad. Compra en línea y paga fácil.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="header"></div>
+
+  <main>
+    <div class="carrusel" id="carrusel">
+      <div class="diapositiva activa"><img src="img/banner/banner-1.jpg" alt="Mujer con look de primavera"></div>
+      <div class="diapositiva"><img src="img/banner/banner-2.jpg" alt="Vestido elegante"></div>
+      <div class="diapositiva"><img src="img/banner/banner-3.jpg" alt="Estilo urbano casual"></div>
+      <div class="texto-hero">
+        <h1>Viste tu estilo, cada día</h1>
+        <p>Prendas cómodas, elegantes y llenas de personalidad para todas las ocasiones.</p>
+        <a href="tienda.html" class="boton">Ir a la tienda</a>
+      </div>
+      <button class="flecha" id="anterior" aria-label="Anterior">‹</button>
+      <button class="flecha" id="siguiente" aria-label="Siguiente">›</button>
+      <div class="puntos" id="puntos"></div>
+    </div>
+
+    <section class="presentacion">
+      <p class="eslogan">Moda que se siente como tú.</p>
+      <h2>Bienvenida a Aurora</h2>
+      <p class="parrafo">En Aurora creamos looks para el trabajo, el día a día y los momentos especiales. Elegimos cada prenda por su comodidad, su calidad y su precio justo, para que te vistas bien sin complicarte. Compra desde tu casa, paga como prefieras y recibe tu pedido en la puerta.</p>
+    </section>
+
+    <div class="beneficios">
+      <div><span>🚚</span><b>Envíos a todo el país</b><small>Gratis en compras desde $200.000</small></div>
+      <div><span>💳</span><b>Paga como quieras</b><small>Tarjeta, PSE, Nequi o contra entrega</small></div>
+      <div><span>🔁</span><b>Cambios fáciles</b><small>Hasta 15 días después de tu compra</small></div>
+      <div><span>💬</span><b>Atención por WhatsApp</b><small>Te ayudamos a elegir tu talla</small></div>
+    </div>
+
+    <section>
+      <h2>Compra por categoría</h2>
+      <p class="subtitulo">Elige una categoría y encuentra tu próxima prenda favorita.</p>
+      <div class="categorias" id="categorias"></div>
+    </section>
+
+    <section class="fondo-suave">
+      <h2>Las más queridas</h2>
+      <p class="subtitulo">Las prendas que más se llevan nuestras clientas.</p>
+      <div class="galeria" id="destacados"></div>
+      <div class="centro"><a href="tienda.html" class="boton">Ver todo el catálogo</a></div>
+    </section>
+
+    <section>
+      <h2>Looks Aurora</h2>
+      <p class="subtitulo">Inspírate con combinaciones para cada ocasión.</p>
+      <div class="mosaico">
+        <figure><img loading="lazy" src="img/looks/look-1.jpg" alt="Look casual de día" data-ph="Look casual de día"></figure>
+        <figure><img loading="lazy" src="img/looks/look-2.jpg" alt="Outfit de verano" data-ph="Outfit de verano"></figure>
+        <figure><img loading="lazy" src="img/looks/look-3.jpg" alt="Look elegante" data-ph="Look elegante"></figure>
+        <figure><img loading="lazy" src="img/looks/look-4.jpg" alt="Estilo urbano" data-ph="Estilo urbano"></figure>
+        <figure><img loading="lazy" src="img/looks/look-5.jpg" alt="Prendas en boutique" data-ph="Prendas en boutique"></figure>
+        <figure><img loading="lazy" src="img/looks/look-6.jpg" alt="Look de otoño" data-ph="Look de otoño"></figure>
+      </div>
+    </section>
+
+    <section class="fondo-suave" id="nosotras">
+      <h2>Sobre Aurora</h2>
+      <p class="parrafo">Aurora nació para inspirar tu forma de vestir. Creemos que la moda debe ser cómoda, accesible y una manera de expresar quién eres. Aquí encontrarás ideas para la oficina, la universidad, las salidas con amigas y las ocasiones especiales.</p>
+    </section>
+
+    <section id="redes">
+      <h2>Redes sociales</h2>
+      <p class="subtitulo">Síguenos para ver novedades, promociones y looks nuevos.</p>
+      <div class="redes">
+        <a class="red facebook" data-fb target="_blank" rel="noopener"><span>f</span><div><b>Facebook</b><small>Aurora Moda Femenina</small></div></a>
+        <a class="red tiktok" data-tt target="_blank" rel="noopener"><span>♪</span><div><b>TikTok</b><small>@aurora.modafemenina</small></div></a>
+        <a class="red whatsapp" data-wa target="_blank" rel="noopener"><span>💬</span><div><b>WhatsApp</b><small>321 605 1474</small></div></a>
+      </div>
+    </section>
+
+    <section class="fondo-suave" id="contacto">
+      <h2>Recibe novedades</h2>
+      <p class="subtitulo">Suscríbete y conoce primero nuestras nuevas colecciones.</p>
+      <form id="formulario">
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <input type="email" id="correo" placeholder="Tu correo electrónico" required>
+        <button type="submit" class="boton">Suscribirme</button>
+        <p id="mensaje-form"></p>
+      </form>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
